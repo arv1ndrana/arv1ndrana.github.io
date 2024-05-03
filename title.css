@@ -1,0 +1,16 @@
+.introduction {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    height:32em;
+}
+
+#title{
+    padding-top:4em;
+    font-size: xxx-large;
+}
+
+#description {
+    font-size: large;
+}
