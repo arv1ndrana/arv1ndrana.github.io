@@ -48,13 +48,41 @@
     
 }
 
-.title{
-    height: 100px;
+.featured{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px;
+    gap: 5em;
 }
-.title h1{
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 25px;
+
+.featured .main {
+    width: calc(600px);
+    height:calc(480px);
+    /* background: lightblue; */
+    padding: 10px 17.5px;
+    border: 1px solid rgb(117, 110, 110);
+    border-radius: 5px;
+}
+
+.featured .main img{
+    width: 100%;
+}
+
+.featured .sub .sub1,
+.featured .sub .sub2,
+.featured .sub .sub3{
+    height: calc();
+    width: 200px;
+    padding: 10px 17.5px;
+    background: lightcoral;
+    border: 1px solid rgb(117, 110, 110);
+    border-radius: 5px;
+}
+
+.featured .sub .sub2,
+.featured .sub .sub3{
+    margin-top: 10px;
 }
 
 .project {
@@ -69,10 +97,10 @@
     height: 300px;
     width:300px;
     border: 1px solid rgb(117, 110, 110);
+    border-radius: 5px;
     margin: auto;
     padding:10px 5px;
     text-align: center;
-    border-radius: 5px;
 }
 
 .project .box1 button{
