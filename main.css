@@ -89,6 +89,16 @@
     height: 105px;
 }
 
+.featured .sub a{
+    text-decoration: none;
+    color: black;
+}
+
+.featured .sub a:hover{
+    color: #ff4800;
+    transition: all linear 0.3s;
+}
+
 .project {
     display: flex;
     flex-wrap: wrap;
