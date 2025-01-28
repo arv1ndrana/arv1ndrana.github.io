@@ -72,10 +72,9 @@
 .featured .sub .sub1,
 .featured .sub .sub2,
 .featured .sub .sub3{
-    height: calc();
+    height: 140px;
     width: 200px;
     padding: 10px 17.5px;
-    background: lightcoral;
     border: 1px solid rgb(117, 110, 110);
     border-radius: 5px;
 }
@@ -83,6 +82,11 @@
 .featured .sub .sub2,
 .featured .sub .sub3{
     margin-top: 10px;
+}
+
+.featured .sub img{
+    width: 200px;
+    height: 105px;
 }
 
 .project {
