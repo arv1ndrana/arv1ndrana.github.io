@@ -10,8 +10,20 @@
     justify-content: center;
     align-items: center;
 }
+.header nav a .subscribe{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(226, 13, 13);
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    
 
-
+}
+.blog{
+    color: white;
+    margin: 0px 120px 0px 0px;
+}
 .header nav{
     display: flex;
     justify-content: center;
@@ -19,6 +31,10 @@
     gap: 2em;
 }
 
+.header h1{
+    flex-direction:row;
+    align-self: flex-start;
+}
 .header nav a{
     text-decoration: none;
     color: white;
@@ -26,14 +42,12 @@
     font-family: sans-serif;
     font-weight: bold;
     font-size: 18px;
-  
-
-
 }
-.header nav a button{
+
+.header nav a .login{
     color: wheat;
     background-color: #000000;
-    padding: 10px 22px;
+    padding: 5px 15px;
     font-size: 18px;
     border-radius: 5px;
     font-weight: bold;
@@ -91,6 +105,7 @@
 
 .featured .sub a{
     text-decoration: none;
+    font-weight: bold;
     color: black;
 }
 
@@ -129,6 +144,10 @@
     cursor: pointer;
 }
 
+.project .box1 button:hover{
+    background: #0078bd;
+    transition: all linear 0.3s;
+}
 .btn {
     margin-top: 3em;
     display: flex;
@@ -146,6 +165,10 @@
     cursor: pointer;
 }
 
+.btn button:hover {
+    background-color: #02290a;
+    transition: all linear 0.3s;
+}
 .footer{
     display: flex;
     gap:10em;
