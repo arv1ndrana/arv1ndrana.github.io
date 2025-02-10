@@ -1,10 +1,82 @@
+/* Basic Styles */
 body {
-    background: #24273a;
-    color: white;
-
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f0f0f0; /* Light yellow background */
+    margin: 0;
+    color: #333; /* Dark gray text color */
 }
 
-a {
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
     text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background-color: #eee; /* Light gray background on hover */
+}
+
+/* Responsive Design - Media Queries */
+@media (max-width: 768px) { /* Tablet and smaller screens */
+    nav li {
+        display: block; /* Stack navigation links vertically */
+        margin: 10px 0;
+    }
+
+    nav a {
+        display: block; /* Make links fill the width */
+        width: 100%;
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+        margin: 5px 0; /* Add some vertical margin */
+    }
+
+    .header-content {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) { /* Phone screens */
+    h1 {
+        font-size: 1.2em;
+    }
 }
